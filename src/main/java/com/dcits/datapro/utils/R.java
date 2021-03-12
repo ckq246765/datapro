@@ -1,6 +1,7 @@
 package com.dcits.datapro.utils;
 
 import io.swagger.annotations.ApiModelProperty;
+import org.springframework.util.StringUtils;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -31,7 +32,7 @@ public class R {
      * @return
      */
     public static R success(){
-        return new R().setSuccess(true).setCode(ResultCode.SUCCESS).setMessage("成功");
+        return new R().setSuccess(true).setCode(ExceptionResultCode.SUCCESS).setMessage("成功");
     }
 
     /**
@@ -39,7 +40,7 @@ public class R {
      * @return
      */
     public static R error(){
-        return new R().setSuccess(false).setCode(ResultCode.ERROR).setMessage("失败");
+        return new R().setSuccess(false).setCode(ExceptionResultCode.ERROR).setMessage("失败");
     }
 
     public Boolean getSuccess() {
@@ -47,7 +48,7 @@ public class R {
     }
 
     public R setSuccess(Boolean success) {
-        this.success = success;
+        this.success = StringUtils.isEmpty(success)?this.success:success;
         return this;
     }
 
@@ -56,7 +57,7 @@ public class R {
     }
 
     public R setCode(Integer code) {
-        this.code = code;
+        this.code = StringUtils.isEmpty(code)?this.code:code;
         return this;
     }
 
@@ -65,7 +66,7 @@ public class R {
     }
 
     public R setMessage(String message) {
-        this.message = message;
+        this.message = StringUtils.isEmpty(message)?this.message:message;
         return this;
     }
 
@@ -77,4 +78,5 @@ public class R {
         this.data = data;
         return this;
     }
+
 }

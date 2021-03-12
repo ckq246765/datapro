@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "table",
+      "type": "com.dcits.datapro.utils.TabConfig",
+      "sourceType": "com.dcits.datapro.utils.TabConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "table.tables",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.dcits.datapro.utils.TabConfig"
+    }
+  ],
+  "hints": []
+}

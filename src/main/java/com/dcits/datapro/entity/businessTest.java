@@ -1,5 +1,7 @@
 package com.dcits.datapro.entity;
 
+import io.swagger.annotations.ApiModel;
+
 import javax.persistence.*;
 
 @Table(name = "business_test")
@@ -60,5 +62,14 @@ public class businessTest {
      */
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "businessTest{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }

@@ -1,0 +1,5 @@
+2021-03-11 23:44:20.693 [main] DEBUG o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2c1156a7
+2021-03-11 23:44:25.525 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-03-11 23:44:25.527 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.dcits.datapro'
+2021-03-11 23:52:31.449 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2021-03-11 23:52:32.885 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\datapro\target\classes\businessDBMapper\businessTestMapper.xml]'

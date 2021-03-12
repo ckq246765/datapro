@@ -1,0 +1,5 @@
+2021-03-11 23:44:20.508 [main] INFO  com.dcits.datapro.DataproApplicationTests - Starting DataproApplicationTests on 陈克齐 with PID 3324 (started by 陈克齐 in D:\datapro)
+2021-03-11 23:44:20.508 [main] INFO  com.dcits.datapro.DataproApplicationTests - No active profile set, falling back to default profiles: default
+2021-03-11 23:44:27.060 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$20476b87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 23:44:30.917 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-03-11 23:52:35.222 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
